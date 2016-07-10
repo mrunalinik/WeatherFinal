@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">B19_Weather</string>
+    <string name="getDataString">Get Data</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+
+    <string name="alarmString">Set an Alarm</string>
+</resources>

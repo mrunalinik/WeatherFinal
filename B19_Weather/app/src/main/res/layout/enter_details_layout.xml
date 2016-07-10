@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:id="@+id/cityET"
+        android:hint="@string/city"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityET"
+        android:layout_marginTop="20dip"
+        android:id="@+id/stateET"
+        android:hint="@string/state"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stateET"
+        android:layout_marginTop="20dip"
+        android:text="@string/getDataString"
+        android:id="@+id/getDataBtn"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getDataBtn"
+        android:layout_marginTop="20dip"
+        android:text="@string/alarmString"
+        android:textSize="18sp"
+        android:id="@+id/alarmCheckBox"/>
+
+</RelativeLayout>
